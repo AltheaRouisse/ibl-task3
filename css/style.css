@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(62, 185, 128, .95), rgba(53, 130, 87, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(62, 185, 128, .95), rgba(53, 130, 87, .95)), url(../images/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,8 +331,13 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
+
+
     .hero {
-        padding-top: 60px;
+      background: linear-gradient(#3eb9802e, #35825763), url(../images/home.jpg) !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
     }
 
     .hero .hero-content {
@@ -368,7 +373,7 @@ a:focus {
     .hero .hero-text,
     .hero .hero-btn {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .hero .hero-text p {
