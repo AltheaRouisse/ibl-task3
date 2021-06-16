@@ -334,11 +334,10 @@ a:focus {
     
  
     .hero {
-        background: linear-gradient(rgba(62, 185, 128, .95), rgba(53, 130, 87, .95)), url(../images/home.jpg) !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;  
-        padding-top: 60px;
+      background: linear-gradient(#3eb9802e, #35825763), url(../images/home.jpg) !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
     }
 
     .hero .hero-content {
@@ -374,7 +373,7 @@ a:focus {
     .hero .hero-text,
     .hero .hero-btn {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .hero .hero-text p {
