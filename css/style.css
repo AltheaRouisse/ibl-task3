@@ -331,7 +331,13 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
+    
+ 
     .hero {
+        background: linear-gradient(rgba(62, 185, 128, .95), rgba(53, 130, 87, .95)), url(../images/home.jpg) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
         padding-top: 60px;
     }
 
